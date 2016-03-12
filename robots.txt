@@ -1,0 +1,10 @@
+# Foo
+User-agent: *
+Allow: /
+Disallow: /secret/
+Nonstandard: DirectiveValue
+
+User-agent: GoogleBot
+Disallow: /google/
+
+Sitemap: /sitemap.xml
