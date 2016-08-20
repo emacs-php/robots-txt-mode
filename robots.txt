@@ -1,7 +1,7 @@
 # Foo
 User-agent: *
-Allow: /
-Disallow: /secret/
+allow: /
+disallow: /secret/
 Nonstandard: DirectiveValue
 
 User-agent: GoogleBot

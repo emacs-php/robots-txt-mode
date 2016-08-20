@@ -64,7 +64,7 @@
 ;;;###autoload
 (define-derived-mode robots-txt-mode prog-mode "[o_-]"
   "Major mode for editing `robots.txt'"
-  (setq font-lock-defaults '(robots-txt-mode-syntax-keywords)))
+  (setq font-lock-defaults '(robots-txt-mode-syntax-keywords nil t)))
 
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("/robots\\.txt\\'" . robots-txt-mode))
