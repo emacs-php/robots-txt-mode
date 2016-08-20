@@ -4,7 +4,7 @@
 
 ;; Author: USAMI Kenta <tadsan@zonu.me>
 ;; Created: 9 Mar 2016
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Keywords: web
 
 ;; This file is NOT part of GNU Emacs.
