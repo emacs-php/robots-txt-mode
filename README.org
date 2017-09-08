@@ -1,7 +1,8 @@
 * robots-txt-mode
 
-Emacs major mode for editing [[http://www.robotstxt.org/robotstxt.html][robots.txt]]. This mode supports [[https://support.google.com/webmasters/answer/6062596][well-known extension by Google]].
+Emacs major mode for editing [[http://www.robotstxt.org/robotstxt.html][robots.txt]].  This mode supports [[https://support.google.com/webmasters/answer/6062596][well-known extension by Google]].
 
 ** Specification
 
+- [[http://www.robotstxt.org/][The Web Robots Pages]]
 - [[https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt?hl=ja][Google's =robots.txt= specification]]
