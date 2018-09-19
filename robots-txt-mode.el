@@ -1,6 +1,6 @@
 ;;; robots-txt-mode.el --- Major mode for editing robots.txt
 
-;; Copyright (C) 2016 USAMI Kenta
+;; Copyright (C) 2018 Friends of Emacs-PHP development
 
 ;; Author: USAMI Kenta <tadsan@zonu.me>
 ;; Created: 9 Mar 2016
