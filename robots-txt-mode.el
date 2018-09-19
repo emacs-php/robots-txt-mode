@@ -35,11 +35,19 @@
     "Sitemap")
   "Directive keywords for robots.")
 
+(defvar robots-txt-mode-syntax-table
+  (let ((table (make-syntax-table)))
+    (modify-syntax-entry ?#  "<" table)
+    (modify-syntax-entry ?.  "_" table)
+    (modify-syntax-entry ?/  "_" table)
+    (modify-syntax-entry ?:  "." table)
+    (modify-syntax-entry ??  "_" table)
+    (modify-syntax-entry ?\n ">" table)
+    (modify-syntax-entry ?_  "_" table)
+    table))
+
 (defconst robots-txt-mode-syntax-keywords
   (list
-   (cons ; Line Comment
-    "^ *\\(#.+\\)"
-    '((1 font-lock-comment-face)))
    (cons
     (concat
      "^\\(User-agent:\\)"
@@ -65,6 +73,8 @@
 ;;;###autoload
 (define-derived-mode robots-txt-mode prog-mode "[o_-]"
   "Major mode for editing `robots.txt'"
+  :syntax-table robots-txt-mode-syntax-table
+  (setq comment-start "# ")
   (setq font-lock-defaults '(robots-txt-mode-syntax-keywords nil t)))
 
 ;;;###autoload
