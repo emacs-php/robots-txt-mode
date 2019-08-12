@@ -1,8 +1,11 @@
 * robots-txt-mode
 
-Emacs major mode for editing [[http://www.robotstxt.org/robotstxt.html][robots.txt]].  This mode supports [[https://support.google.com/webmasters/answer/6062596][well-known extension by Google]].
+Emacs major mode for editing [[http://www.robotstxt.org/robotstxt.html][robots.txt]].
+This mode supports [[https://support.google.com/webmasters/answer/6062596][well-known extension by Google]] and [[https://tools.ietf.org/html/draft-rep-wg-topic-00][RFC Draft]].
 
 ** Specification
 
+- [[https://tools.ietf.org/html/draft-rep-wg-topic-00][RFC: Robots Exclusion Protocol (Draft)]]
 - [[http://www.robotstxt.org/][The Web Robots Pages]]
-- [[https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt?hl=ja][Google's =robots.txt= specification]]
+- [[https://developers.google.com/search/reference/robots_txt][Google's =robots.txt= specification]]
+  - Define [[https://developers.google.com/search/reference/robots_txt#sitemap][=sitemap=]] non-group record

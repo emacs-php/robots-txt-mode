@@ -50,22 +50,25 @@
   (list
    (cons
     (concat
-     "^\\(User-agent:\\)"
-     " "
-     "\\(.+\\)")
+     "^[ \t]*\\(User-agent[ \t]*:\\)"
+     "[ \t]*"
+     "\\(\\*\\|[a-zA-Z_-]*\\)"
+     "[ \t]*"
+     "\\(.*\\)")
     '((1 font-lock-keyword-face)
-      (2 font-lock-function-name-face)))
+      (2 font-lock-function-name-face)
+      (3 font-lock-warning-face)))
    (cons ; Directive
     (concat
-     "^\\(" (regexp-opt robots-txt-mode-directives) ":\\)"
-     " "
+     "^[ \t]*\\(" (regexp-opt robots-txt-mode-directives) "[ \t]*:\\)"
+     "[ \t]*"
      "\\(.+\\)")
     '((1 font-lock-type-face)
       (2 font-lock-string-face)))
    (cons ; Non standard directive
     (concat
-     "^\\(\\(?:[-a-zA-Z]\\)+:\\)"
-     " +"
+     "^[ \t]*\\(\\(?:[-a-zA-Z]\\)+[ \t]*:\\)"
+     "[ \t]*"
      "\\(.+\\)")
     '((1 font-lock-builtin-face)
       (2 font-lock-string-face)))))
