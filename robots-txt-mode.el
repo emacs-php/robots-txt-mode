@@ -4,7 +4,7 @@
 
 ;; Author: USAMI Kenta <tadsan@zonu.me>
 ;; Created: 9 Mar 2016
-;; Version: 0.0.3
+;; Version: 0.0.9
 ;; Keywords: languages, comm, web
 ;; URL: https://github.com/emacs-php/robots-txt-mode
 
