@@ -8,4 +8,4 @@ This mode supports [[https://support.google.com/webmasters/answer/6062596][well-
 - [[https://tools.ietf.org/html/draft-rep-wg-topic-00][RFC: Robots Exclusion Protocol (Draft)]]
 - [[http://www.robotstxt.org/][The Web Robots Pages]]
 - [[https://developers.google.com/search/reference/robots_txt][Google's =robots.txt= specification]]
-  - Define [[https://developers.google.com/search/reference/robots_txt#sitemap][=sitemap=]] non-group record
+  - Define [[https://developers.google.com/search/reference/robots_txt#sitemap][ =sitemap= ]] non-group record
