@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "robots-txt-mode"
          "0.0.9"
          "Major mode for editing robots.txt")
